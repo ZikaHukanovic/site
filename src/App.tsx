@@ -440,7 +440,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/40 rounded-2xl p-8 border border-blue-500/20 backdrop-blur-sm text-center hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-500 cursor-pointer group relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500 group-hover:shadow-blue-500/50 relative z-10">
@@ -476,6 +476,25 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-600 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300"></div>
                 <ExternalLink className="h-5 w-5 relative z-10 group-hover/btn:rotate-12 transition-transform duration-300" />
                 <span className="relative z-10">Posjeti Kalimero</span>
+              </a>
+            </div>
+
+            <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/40 rounded-2xl p-8 border border-purple-500/20 backdrop-blur-sm text-center hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-500 cursor-pointer group relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="bg-gradient-to-br from-purple-600 to-purple-700 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500 group-hover:shadow-purple-500/50 relative z-10">
+                <MessageCircle className="h-8 w-8 text-white group-hover:scale-110 transition-transform duration-300" />
+              </div>
+              <h3 className="text-2xl font-semibold mb-4 text-white relative z-10 group-hover:text-purple-200 transition-colors duration-300">Balkan Network</h3>
+              <p className="text-slate-300 mb-6 relative z-10 group-hover:text-slate-200 transition-colors duration-300">Zabavna balkanska zajednica koja želi da pomogne</p>
+              <a 
+                href="https://discord.gg/HnBRbZveKV" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-6 py-3 rounded-lg font-semibold transition-all transform hover:scale-110 hover:-translate-y-1 shadow-lg hover:shadow-purple-500/50 relative z-10 group/btn overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-purple-600 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300"></div>
+                <ExternalLink className="h-5 w-5 relative z-10 group-hover/btn:rotate-12 transition-transform duration-300" />
+                <span className="relative z-10">Pridruži se</span>
               </a>
             </div>
           </div>
@@ -543,6 +562,10 @@ function App() {
               <a href="https://discord.gg/kalimero" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-all duration-300 hover:scale-105 flex items-center gap-2 group">
                 <ExternalLink className="h-4 w-4 group-hover:rotate-12 transition-transform duration-300" />
                 Kalimero Partner
+              </a>
+              <a href="https://discord.gg/HnBRbZveKV" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-all duration-300 hover:scale-105 flex items-center gap-2 group">
+                <ExternalLink className="h-4 w-4 group-hover:rotate-12 transition-transform duration-300" />
+                Balkan Network
               </a>
               <div className="text-center md:text-right">
                 <div className="text-sm">© 2025 Print Univerzitet. Sva prava zadržana.</div>
